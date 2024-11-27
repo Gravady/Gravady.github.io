@@ -1,0 +1,498 @@
+html, body {
+    height: 350vh;
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+}
+
+#wrapper {  
+    padding: 20px;
+    margin: 0 auto;
+    background-color: gray;
+    width: auto;
+    height: 100%;
+    background-image: url("../Bilder/skog.png");
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 5%;
+    background-color: cyan;
+    margin-bottom: 20px;
+    background-image: url("../Bilder/Styling/stone.png");
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
+
+nav > h1 {
+    font-size: 80px;
+    margin: 0;
+    margin-right: 400px;
+    gap:20px;
+    color: white;
+    margin:10px;
+}
+
+#maindiv {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    gap: 8px;
+}
+
+#mainimage {
+    margin-top: 40px;
+    width: 60%;
+    height: 30%;
+    background-color:aliceblue;
+    background-image: url("../Bilder/Styling/strömming.png");
+    background-size: cover;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
+
+main {
+    border-radius: 10px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width:100%;
+    background-color: rgba(128, 128, 128, 0.5);
+    color: white;
+    letter-spacing:1px;
+    align-items: center;
+    text-align: center;
+}
+
+#text{
+    width:auto; 
+    height:auto;
+    background-color:#647D3D;
+    margin:30px;
+    padding:20px;
+    font-size:20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
+
+.reklam {
+    border-radius: 10px;
+    width: 20%;
+    background-image: url('../Bilder/Reklam/kids_smoke.png');
+    background-color: yellow;
+    height: 100%;
+    background-size: cover;
+    display: flex;
+}
+
+.celebirty {
+    display: flex;
+    width: 90%;
+    height: auto;
+    align-items: stretch;
+    justify-content: space-between;
+    gap:5px;
+    margin-bottom:20px;
+}
+
+#rock{
+    width: 100%;
+    height: 250px;
+    background-color:aliceblue;
+    background-image: url("../Bilder/Kändisar/rock.png");
+    background-size: cover;
+    border: 2px solid black;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
+
+#rock_box{
+    background-color: gray;
+    width: 100%;
+    height: 20px;
+}
+
+#blomm {
+    width: 100%;
+    height: 250px;
+    background-color:aliceblue;
+    background-image: url("../Bilder/Kändisar/edward.png");
+    background-size: cover;
+    border: 2px solid black;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
+#blomm_box{
+   background-color: gray;
+   width:100%;
+   height: 20px;
+}
+
+#celebirty_button {
+    width: 50%;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: olive;
+    margin-bottom: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+    color: black;
+    display: flex; 
+    text-align: center;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
+
+#celebirty_window {
+    position: absolute;
+    width: 90%; 
+    height: 100%;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    display:none;
+}
+.famous {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%; 
+    height: 100%; 
+    padding:40px;
+    gap:10px;
+    box-sizing: border-box;
+}
+
+.famous > div {
+    flex: 1 1 calc(50% - 20px); 
+    max-width: calc(70% - 100px); 
+    height: calc(50% - 20px); 
+    box-sizing: border-box;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding:20px;
+}
+
+.celebirty_box{
+    justify-content: flex-start;
+    width:100%;
+    padding:5px;
+    margin:5px;
+    border-radius: 10px;
+    background-color: gray;
+    bottom:20px;
+    position: relative;
+}
+
+#elon_musk{
+    background-color:green;
+    background-image: url("../Bilder/Kändisar/elon.png");
+    background-size: cover;
+    position:relative;
+}
+
+#elon_musk_box{
+    position:absolute;
+    top:0px;
+    width: 100%;
+    height: 20;
+    cursor: pointer;
+    right:0px;
+    justify-content:center;
+    background-color: gray;
+}
+
+#daidalos{
+    background-color:yellow;
+    background-image: url("../Bilder/Kändisar/daidalos.png");
+    background-size:cover;
+}
+
+#daidalos_box{
+    position:absolute;
+    top:0px;
+    width: 100%;
+    height: 20;
+    cursor: pointer;
+    right:0px;
+    justify-content:center;
+    background-color: gray;
+}
+
+#alex_jones{
+    background-color:black;
+    background-image: url("../Bilder/Kändisar/alex_jones.png");
+    background-size:cover;
+}
+
+#alex_jones_box{
+    position:absolute;
+    top:0px;
+    width: 100%;
+    height: 20;
+    cursor: pointer;
+    right:0px;
+    justify-content:center;
+    background-color: gray;
+}
+
+#king{
+    background-color:blue;
+    background-image: url("../Bilder/Kändisar/king.png");
+    background-size:cover;
+}
+
+#king_box{
+    position:relative;
+    top:0px;
+    width: 100%;
+    height: 20;
+    cursor: pointer;
+    right:0px;
+    justify-content:center;
+    background-color: gray;
+}
+
+#close_button{
+    position:absolute;
+    top: 10px;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+    gap:20px;
+    cursor: pointer;
+    background-color: red;
+}
+
+.counters {
+    display: flex;
+    height:40px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 15px;
+    margin-top: 20px;
+    border: 2px solid black;
+    gap:15px;
+    border-radius: 10px;
+}
+
+.counters > div {
+    flex: 1;
+    text-align: center; 
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    height: 30px;
+    background-color:aliceblue;
+}
+
+#antal_burkar_counter {
+    color: green;
+    font-size: 20px;
+}
+
+#nöjda_köpare_counter {
+    color: purple;
+    font-size: 20px;
+}
+
+#kvadrat_meter_friluftsliv_räddat_counter {
+    color: blue;
+    font-size: 20px;
+}
+
+section {
+    width: 100%;
+    height:auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px; 
+    justify-content: center; 
+}
+
+.surströmming-produkt > div {
+    flex: 1 1 calc(30% - 30px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    font-size: 1.5em;
+    height: 300px; 
+    border: 2px solid black;
+    box-sizing: border-box; 
+    cursor: pointer;
+    margin:10px;
+    background-size:cover;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+.produkt_window{
+    width:100%;
+    height:200px;
+    display: none;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#värnen {
+    background-image: url("../Bilder/Produkt_bilder/värnen.png");
+}
+
+#björnstad_flugsvamp {
+     background-image: url(../Bilder/Produkt_bilder/flugsvamp.png);
+}
+
+#värmlands_skog {
+    background-image: url("../Bilder/Produkt_bilder/värmlands_skog.png");
+ }
+
+#tropisk_sten { 
+    background-image: url("../Bilder/Produkt_bilder/tropisk_sten.png");
+}
+
+#mossig_bark {
+    background-image: url("../Bilder/Produkt_bilder/mossig_bark.png");
+}
+
+#skånsk_betesmark {
+    background-image: url("../Bilder/Produkt_bilder/skånsk_gräss.png");
+    background-size: cover;
+}
+
+#ölands_sand {
+    background-image: url("../Bilder/Produkt_bilder/ölands_sand.png")
+}
+
+#stockholms_blommor {
+    background-image: url("../Bilder/Produkt_bilder/blommor.png");
+}
+
+#göteborg_kust_crust {
+    background-image: url("../Bilder/Produkt_bilder/kust.png");
+}
+
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: gray !important;
+    opacity: 0.9 !important;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    justify-content:space-around;
+    gap:10px;
+    font-size:25px;
+    cursor:pointer;
+}
+
+@media (max-width:1000px){
+    .celebirty {
+        display: flex;
+        width: 90%;
+        height:120%;
+        flex-wrap:wrap;
+    }
+    main{
+        height:auto;
+    }
+    .counters{
+        margin-top:50px;
+    }
+}
+
+@media (max-width: 700px) {
+    body{
+        width:auto;
+    }
+    #wrapper{
+        flex-direction: column;
+        align-items: center;
+        gap:10px;
+        height:auto;
+    }
+    main{
+        height:auto !important;
+    }
+    nav > h1 {
+        font-size: 60px;
+    }
+
+    .celebirty_box{
+        display:none;
+    }
+
+    .surströmming-produkt{
+        flex-direction: column;
+        flex-wrap:nowrap;
+    }
+    .circle{
+        display:none;
+    }
+    #mainimage{
+        width: 90%;
+        height: 300px;
+    }
+
+    .celebirty {
+        display: flex;
+        width: 90%;
+        height:120%;
+        flex-wrap:wrap;
+    }
+
+    #celebirty_button{
+        display:none;
+    }
+
+    .reklam{
+        display:none;
+    }
+    footer{
+        flex-direction: column;
+    }
+
+    footer > p{
+        padding:0px;
+        margin:0px;
+        flex:flex-wrap;
+        font-size:15px;
+        justify-content:center;
+    }
+    #close_button{
+        display: none;
+    }
+    .counters {
+        display: flex;
+        height:150px;
+        margin-top: 20px;
+    }
+    .counters > div {
+        flex: 1;
+        text-align: center; 
+        padding: 10px;
+        font-size: 0.6em;
+        border-radius: 10px;
+        height: 100px;
+        background-color:aliceblue;
+    }
+    footer{
+        height:130px;
+        font-size:20px;
+        width:100%;
+        font-size:20px;
+        display:flex;
+        flex-wrap:wrap;
+    }
+}

@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     twitter.addEventListener("click", () => {
-        window.location.href = "https://www.twitter.com";
+        window.location.href = "https://www.twitter.com/";
     });
 });
 

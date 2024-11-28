@@ -38,7 +38,6 @@ document.addEventListener("DOMContentLoaded", () => {
         produkt.addEventListener("click", () => {
             const produktWindow = produkt.querySelector(".produkt_window");
             window.alert("Du har köpt en produkt");
-            produktWindow.style.display = "block";
         });
     });
 

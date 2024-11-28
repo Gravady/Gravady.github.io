@@ -54,6 +54,18 @@ document.addEventListener("DOMContentLoaded", () => {
     företag.addEventListener("click", () => {
         window.location.href = "https://www.facebook.com";
     });
+
+    kontakt.addEventListener("click", () => {
+        window.location.href = "mailto:support@example.com";
+    });
+
+    privat.addEventListener("click", () => {
+        window.location.href = "https://www.instagram.com";
+    });
+
+    twitter.addEventListener("click", () => {
+        window.location.href = "https://www.twitter.com";
+    });
 });
 
 $("#close_button").on("click", function() {

@@ -151,13 +151,6 @@ main {
     color: black;
     display: flex; 
     text-align: center;
-    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
-    transition: background-color 0.3s ease;
-}
-
-#celebirty_button:hover{
-    transform: scale(1.2);
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 #celebirty_window {

@@ -110,7 +110,7 @@ main {
     width: 100%;
     height: 250px;
     background-color:aliceblue;
-    background-image: url("../Bilder/Kändisar/rock.png");
+    background-image: url("../Bilder/StockImage/guy1.png");
     background-size: cover;
     border: 2px solid black;
     box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
@@ -126,7 +126,7 @@ main {
     width: 100%;
     height: 250px;
     background-color:aliceblue;
-    background-image: url("../Bilder/Kändisar/edward.png");
+    background-image: url("../Bilder/StockImage/guy2.png");
     background-size: cover;
     border: 2px solid black;
     box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
@@ -196,7 +196,7 @@ main {
 
 #elon_musk{
     background-color:green;
-    background-image: url("../Bilder/Kändisar/elon.png");
+    background-image: url("../Bilder/StockImage/guy3.png");
     background-size: cover;
     position:relative;
 }
@@ -214,7 +214,7 @@ main {
 
 #daidalos{
     background-color:yellow;
-    background-image: url("../Bilder/Kändisar/daidalos.png");
+    background-image: url("../Bilder/StockImage/guy4.png");
     background-size:cover;
 }
 
@@ -231,7 +231,7 @@ main {
 
 #alex_jones{
     background-color:black;
-    background-image: url("../Bilder/Kändisar/alex_jones.png");
+    background-image: url("../Bilder/StockImage/guy5.png");
     background-size:cover;
 }
 
@@ -247,8 +247,8 @@ main {
 }
 
 #king{
-    background-color:blue;
-    background-image: url("../Bilder/Kändisar/king.png");
+    background-color:white;
+    background-image: url("../Bilder/StockImage/guy6.png");
     background-size:cover;
 }
 
